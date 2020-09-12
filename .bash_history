@@ -218,3 +218,50 @@ sudo nano dockerfile
 sudo docker ps
 sudo docker stop 8b0044491153  
 sudo docker rm 8b0044491153  
+sudo apt-get update
+ls
+sudo nano dokcerfile
+sudo docker build . -t hello
+sudo docker ps
+
+sudo nano dokcerfile
+sudo nano dockerfile
+rm dokcerfile
+ls
+sudo nano dockerfile
+cd docker
+sudo nano docker
+rm docker
+ls
+rm puppet-release-bionic.deb
+ls
+sudo docker run -it -p 82:80 -d hello
+sudo nano index.html
+git branch
+git init
+git branch
+git branch develop
+git branch master
+sudo su
+sudo apt-get update
+sudo docker ps
+sudo docker stop 8c180ef4470f
+sudo docker rm 8c180ef4470f
+sudo git branch
+sudo git branch develop
+sudo git branch master
+ls
+git remote origin "https://github.com/preneetha/prerepository1"
+sudo git remote origin "https://github.com/preneetha/prerepository1"
+sudo git remote add origin "https://github.com/preneetha/prerepository1"
+git add .
+git commit -m "initial commit"
+ls
+clear
+git develop branch
+git branch develop
+git branch
+git checkout develop
+ls
+cd /var/lib/jenkins
+sudo su
