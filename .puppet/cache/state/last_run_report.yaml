@@ -1,0 +1,76 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: ip-172-31-36-141.ap-south-1.compute.internal
+time: '2020-09-09T20:14:26.721415958+00:00'
+configuration_version: 
+transaction_uuid: dccdb605-153d-4bdc-8c21-2230590ba6c3
+report_format: 8
+puppet_version: 5.4.0
+status: failed
+transaction_completed: false
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: info
+  message: Using configured environment 'production'
+  source: Puppet
+  tags:
+  - info
+  time: '2020-09-09T20:14:26.786425762+00:00'
+  file: 
+  line: 
+- level: info
+  message: Retrieving pluginfacts
+  source: Puppet
+  tags:
+  - info
+  time: '2020-09-09T20:14:26.787241061+00:00'
+  file: 
+  line: 
+- level: info
+  message: Retrieving plugin
+  source: Puppet
+  tags:
+  - info
+  time: '2020-09-09T20:14:26.831580457+00:00'
+  file: 
+  line: 
+- level: info
+  message: Retrieving locales
+  source: Puppet
+  tags:
+  - info
+  time: '2020-09-09T20:14:26.893545904+00:00'
+  file: 
+  line: 
+- level: err
+  message: 'Could not retrieve catalog from remote server: Error 500 on SERVER: Server
+    Error: Could not find node statement with name ''default'' or ''ip-172-31-36-141.ap-south-1.compute.internal,
+    ip-172-31-36-141.ap-south-1.compute, ip-172-31-36-141.ap-south-1, ip-172-31-36-141''
+    on node ip-172-31-36-141.ap-south-1.compute.internal'
+  source: Puppet
+  tags:
+  - err
+  time: '2020-09-09T20:14:27.132789084+00:00'
+  file: 
+  line: 
+- level: warning
+  message: Not using cache on failed catalog
+  source: Puppet
+  tags:
+  - warning
+  time: '2020-09-09T20:14:27.133418011+00:00'
+  file: 
+  line: 
+- level: err
+  message: Could not retrieve catalog; skipping run
+  source: Puppet
+  tags:
+  - err
+  time: '2020-09-09T20:14:27.133750195+00:00'
+  file: 
+  line: 
+metrics: {}
+resource_statuses: {}
+corrective_change: false
+cached_catalog_status: not_used
