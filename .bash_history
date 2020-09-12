@@ -243,3 +243,25 @@ git branch
 git branch develop
 git branch master
 sudo su
+sudo apt-get update
+sudo docker ps
+sudo docker stop 8c180ef4470f
+sudo docker rm 8c180ef4470f
+sudo git branch
+sudo git branch develop
+sudo git branch master
+ls
+git remote origin "https://github.com/preneetha/prerepository1"
+sudo git remote origin "https://github.com/preneetha/prerepository1"
+sudo git remote add origin "https://github.com/preneetha/prerepository1"
+git add .
+git commit -m "initial commit"
+ls
+clear
+git develop branch
+git branch develop
+git branch
+git checkout develop
+ls
+cd /var/lib/jenkins
+sudo su
